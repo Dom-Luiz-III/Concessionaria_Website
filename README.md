@@ -4,10 +4,7 @@ Para realização dessa tarefa eu utilizei o Django Framework para a integraçã
 
 ---
 # Como executar:
-Para execução do programa é necessario ter o python instalado no computador, acessando o terminal através de alguma IDE (pode ser o PyCharm ou VS Code) execute o comando "python manage.py runserver"
-para criar um servidor local em seu PC.
-
-Além do Python, é necessário instalar esses programas pelo terminal Python:
+Instale o Python pelo computador e alguma IDE para usá-lo (pode ser o PyCharm ou VS Code), acessando o terminal Python, instale esses programas através do comando "pip install" e o nome dele:
 
 - Django
 - gunicorn
@@ -15,3 +12,5 @@ Além do Python, é necessário instalar esses programas pelo terminal Python:
 - sqlparse
 - whitenoise
 - Pillow
+
+Com tudo instalado, execute o comando "python manage.py runserver" no terminal python, se tudo der certo ele vai criar algo como "Starting development server at http://127.0.0.1:8000/" e com o link HTTP você consegue acessar o site.
